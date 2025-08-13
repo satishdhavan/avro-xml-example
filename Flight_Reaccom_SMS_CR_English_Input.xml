@@ -1,0 +1,409 @@
+<PassengerNotification xmlns="http://www.wnco.com/paxnotificationevents/v1">
+   <processingData>
+      <processingDateTime>
+         <date>15092020</date>
+         <time>142013</time>
+      </processingDateTime>
+      <recordCreationDateTime>
+         <date>12092020</date>
+         <time>1806</time>
+      </recordCreationDateTime>
+      <responsibleOffice>DALWN01MO</responsibleOffice>
+      <responsibleOfficeCountry>US</responsibleOfficeCountry>
+      <lssOrganization>WN</lssOrganization>
+      <bookingType>L</bookingType>
+      <pNRNumberInParty>1</pNRNumberInParty>
+      <pNROwnerGDS>1A</pNROwnerGDS>
+      <notifLanguageCode>EN</notifLanguageCode>
+   </processingData>
+   <triggerData>
+      <actionCode>CR</actionCode>
+   </triggerData>
+   <recordLocator>
+      <recordNumber>YQDN4T</recordNumber>
+   </recordLocator>
+   <recordLocator>
+      <recordNumber>243335211119</recordNumber>
+      <recordType>N</recordType>
+   </recordLocator>
+   <activeData>
+      <travellerInfo>
+         <elementProperties>
+            <name>NM</name>
+            <type>PT</type>
+            <identifier>2</identifier>
+         </elementProperties>
+         <travellerInformation>
+            <surname>AMADEUS</surname>
+            <universalSurname>AMADEUS</universalSurname>
+            <givenName>SIX</givenName>
+            <givenUniversalName>SIX</givenUniversalName>
+            <type>ADT</type>
+            <category>
+               <name>VIP</name>
+               <value>false</value>
+            </category>
+         </travellerInformation>
+      </travellerInfo>
+      <flightInfo>
+         <elementProperties>
+            <name>AIR</name>
+            <type>ST</type>
+            <identifier>2</identifier>
+         </elementProperties>
+         <flightInformation>
+            <departureDate>150920</departureDate>
+            <departureTime>1210</departureTime>
+            <arrivalDate>150920</arrivalDate>
+            <arrivalTime>1350</arrivalTime>
+            <boardPoint>STL</boardPoint>
+            <offPoint>DAL</offPoint>
+            <airlineCode>WN</airlineCode>
+            <flightNumber>2614</flightNumber>
+            <bookingClass>C</bookingClass>
+            <boardPointTerminal>2</boardPointTerminal>
+            <offPointTerminal>1</offPointTerminal>
+            <airlineName>SOUTHWEST AIRLINES TEXAS</airlineName>
+            <segmentStatusCode>TK</segmentStatusCode>
+            <boardPointInfo>
+               <airportName>LAMBERT-ST LOUIS INTL</airportName>
+               <airportCityCode>STL</airportCityCode>
+               <airportCityName>ST LOUIS</airportCityName>
+               <airportStateCode>MO</airportStateCode>
+               <airportStateName>MISSOURI</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-90.3655</airportLongitude>
+               <airportLatitude>38.7433</airportLatitude>
+            </boardPointInfo>
+            <offPointInfo>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </offPointInfo>
+            <boardPointInfoLayoutLanguage>
+               <airportName>LAMBERT-ST LOUIS INTL</airportName>
+               <airportCityCode>STL</airportCityCode>
+               <airportCityName>ST LOUIS</airportCityName>
+               <airportStateCode>MO</airportStateCode>
+               <airportStateName>MISSOURI</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-90.3655</airportLongitude>
+               <airportLatitude>38.7433</airportLatitude>
+            </boardPointInfoLayoutLanguage>
+            <offPointInfoLayoutLanguage>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </offPointInfoLayoutLanguage>
+         </flightInformation>
+      </flightInfo>
+      <flightInfo>
+         <elementProperties>
+            <name>AIR</name>
+            <type>ST</type>
+            <identifier>3</identifier>
+         </elementProperties>
+         <flightInformation>
+            <departureDate>150920</departureDate>
+            <departureTime>1500</departureTime>
+            <arrivalDate>150920</arrivalDate>
+            <arrivalTime>1615</arrivalTime>
+            <boardPoint>DAL</boardPoint>
+            <offPoint>HOU</offPoint>
+            <airlineCode>WN</airlineCode>
+            <flightNumber>35</flightNumber>
+            <bookingClass>C</bookingClass>
+            <boardPointTerminal>1</boardPointTerminal>
+            <airlineName>SOUTHWEST AIRLINES TEXAS</airlineName>
+            <segmentStatusCode>TK</segmentStatusCode>
+            <boardPointInfo>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </boardPointInfo>
+            <offPointInfo>
+               <airportName>WILLIAM P HOBBY</airportName>
+               <airportCityCode>HOU</airportCityCode>
+               <airportCityName>HOUSTON</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-95.2789</airportLongitude>
+               <airportLatitude>29.6456</airportLatitude>
+            </offPointInfo>
+            <boardPointInfoLayoutLanguage>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </boardPointInfoLayoutLanguage>
+            <offPointInfoLayoutLanguage>
+               <airportName>WILLIAM P HOBBY</airportName>
+               <airportCityCode>HOU</airportCityCode>
+               <airportCityName>HOUSTON</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-95.2789</airportLongitude>
+               <airportLatitude>29.6456</airportLatitude>
+            </offPointInfoLayoutLanguage>
+         </flightInformation>
+      </flightInfo>
+      <impactedElementsNotificationContact>
+         <referenceForDataElement>
+            <type>PT</type>
+            <identifier>2</identifier>
+         </referenceForDataElement>
+         <contactDetails>
+            <mediaType>N</mediaType>
+            <recipient>14695623322</recipient>
+            <ownerType>P</ownerType>
+            <languageCode>EN</languageCode>
+         </contactDetails>
+      </impactedElementsNotificationContact>
+      <impactedElementsFrequentFlyer>
+         <referenceForDataElement>
+            <type>PT</type>
+            <identifier>2</identifier>
+         </referenceForDataElement>
+         <sSRInformation>
+            <ssrCode>FQTV</ssrCode>
+            <actionCode>HK</actionCode>
+            <numberInParty>1</numberInParty>
+            <airlineCode>WN</airlineCode>
+         </sSRInformation>
+         <frequentFlyerInformation>
+            <carrier>WN</carrier>
+            <cardNumber>22035261172</cardNumber>
+            <tierLevel>NONE</tierLevel>
+         </frequentFlyerInformation>
+      </impactedElementsFrequentFlyer>
+   </activeData>
+   <previousData>
+      <flightInfo>
+         <elementProperties>
+            <name>AIR</name>
+            <type>ST</type>
+            <identifier>1</identifier>
+         </elementProperties>
+         <flightInformation>
+            <departureDate>150920</departureDate>
+            <departureTime>1000</departureTime>
+            <arrivalDate>150920</arrivalDate>
+            <arrivalTime>1205</arrivalTime>
+            <boardPoint>STL</boardPoint>
+            <offPoint>HOU</offPoint>
+            <airlineCode>WN</airlineCode>
+            <flightNumber>2590</flightNumber>
+            <bookingClass>C</bookingClass>
+            <boardPointTerminal>2</boardPointTerminal>
+            <airlineName>SOUTHWEST AIRLINES TEXAS</airlineName>
+            <segmentStatusCode>UN</segmentStatusCode>
+            <boardPointInfo>
+               <airportName>LAMBERT-ST LOUIS INTL</airportName>
+               <airportCityCode>STL</airportCityCode>
+               <airportCityName>ST LOUIS</airportCityName>
+               <airportStateCode>MO</airportStateCode>
+               <airportStateName>MISSOURI</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-90.3655</airportLongitude>
+               <airportLatitude>38.7433</airportLatitude>
+            </boardPointInfo>
+            <offPointInfo>
+               <airportName>WILLIAM P HOBBY</airportName>
+               <airportCityCode>HOU</airportCityCode>
+               <airportCityName>HOUSTON</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-95.2789</airportLongitude>
+               <airportLatitude>29.6456</airportLatitude>
+            </offPointInfo>
+            <boardPointInfoLayoutLanguage>
+               <airportName>LAMBERT-ST LOUIS INTL</airportName>
+               <airportCityCode>STL</airportCityCode>
+               <airportCityName>ST LOUIS</airportCityName>
+               <airportStateCode>MO</airportStateCode>
+               <airportStateName>MISSOURI</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-90.3655</airportLongitude>
+               <airportLatitude>38.7433</airportLatitude>
+            </boardPointInfoLayoutLanguage>
+            <offPointInfoLayoutLanguage>
+               <airportName>WILLIAM P HOBBY</airportName>
+               <airportCityCode>HOU</airportCityCode>
+               <airportCityName>HOUSTON</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-95.2789</airportLongitude>
+               <airportLatitude>29.6456</airportLatitude>
+            </offPointInfoLayoutLanguage>
+         </flightInformation>
+      </flightInfo>
+   </previousData>
+   <summaryData>
+      <flightInfo>
+         <elementProperties>
+            <name>AIR</name>
+            <type>ST</type>
+            <identifier>2</identifier>
+         </elementProperties>
+         <flightInformation>
+            <departureDate>150920</departureDate>
+            <departureTime>1210</departureTime>
+            <arrivalDate>150920</arrivalDate>
+            <arrivalTime>1350</arrivalTime>
+            <boardPoint>STL</boardPoint>
+            <offPoint>DAL</offPoint>
+            <airlineCode>WN</airlineCode>
+            <flightNumber>2614</flightNumber>
+            <bookingClass>C</bookingClass>
+            <boardPointTerminal>2</boardPointTerminal>
+            <offPointTerminal>1</offPointTerminal>
+            <airlineName>SOUTHWEST AIRLINES TEXAS</airlineName>
+            <segmentStatusCode>TK</segmentStatusCode>
+            <boardPointInfo>
+               <airportName>LAMBERT-ST LOUIS INTL</airportName>
+               <airportCityCode>STL</airportCityCode>
+               <airportCityName>ST LOUIS</airportCityName>
+               <airportStateCode>MO</airportStateCode>
+               <airportStateName>MISSOURI</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-90.3655</airportLongitude>
+               <airportLatitude>38.7433</airportLatitude>
+            </boardPointInfo>
+            <offPointInfo>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </offPointInfo>
+            <boardPointInfoLayoutLanguage>
+               <airportName>LAMBERT-ST LOUIS INTL</airportName>
+               <airportCityCode>STL</airportCityCode>
+               <airportCityName>ST LOUIS</airportCityName>
+               <airportStateCode>MO</airportStateCode>
+               <airportStateName>MISSOURI</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-90.3655</airportLongitude>
+               <airportLatitude>38.7433</airportLatitude>
+            </boardPointInfoLayoutLanguage>
+            <offPointInfoLayoutLanguage>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </offPointInfoLayoutLanguage>
+         </flightInformation>
+      </flightInfo>
+      <flightInfo>
+         <elementProperties>
+            <name>AIR</name>
+            <type>ST</type>
+            <identifier>3</identifier>
+         </elementProperties>
+         <flightInformation>
+            <departureDate>150920</departureDate>
+            <departureTime>1500</departureTime>
+            <arrivalDate>150920</arrivalDate>
+            <arrivalTime>1615</arrivalTime>
+            <boardPoint>DAL</boardPoint>
+            <offPoint>HOU</offPoint>
+            <airlineCode>WN</airlineCode>
+            <flightNumber>35</flightNumber>
+            <bookingClass>C</bookingClass>
+            <boardPointTerminal>1</boardPointTerminal>
+            <airlineName>SOUTHWEST AIRLINES TEXAS</airlineName>
+            <segmentStatusCode>TK</segmentStatusCode>
+            <boardPointInfo>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </boardPointInfo>
+            <offPointInfo>
+               <airportName>WILLIAM P HOBBY</airportName>
+               <airportCityCode>HOU</airportCityCode>
+               <airportCityName>HOUSTON</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateCode>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-95.2789</airportLongitude>
+               <airportLatitude>29.6456</airportLatitude>
+            </offPointInfo>
+            <boardPointInfoLayoutLanguage>
+               <airportName>LOVE FIELD</airportName>
+               <airportCityCode>DFW</airportCityCode>
+               <airportCityName>DALLAS</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateName>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-96.8519</airportLongitude>
+               <airportLatitude>32.847</airportLatitude>
+            </boardPointInfoLayoutLanguage>
+            <offPointInfoLayoutLanguage>
+               <airportName>WILLIAM P HOBBY</airportName>
+               <airportCityCode>HOU</airportCityCode>
+               <airportCityName>HOUSTON</airportCityName>
+               <airportStateCode>TX</airportStateCode>
+               <airportStateName>TEXAS</airportStateCode>
+               <airportCountryCode>US</airportCountryCode>
+               <airportCountryName>UNITED STATES OF AMERICA</airportCountryName>
+               <airportLongitude>-95.2789</airportLongitude>
+               <airportLatitude>29.6456</airportLatitude>
+            </offPointInfoLayoutLanguage>
+         </flightInformation>
+      </flightInfo>
+   </summaryData>
+</PassengerNotification>
