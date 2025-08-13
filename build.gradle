@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id "de.unihalle.informatik.MiToBo.xjc" version "2.0.0"
+}
+
+group = 'com.yourcompany'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.avro:avro:1.11.3'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.2'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+xjc {
+    xsdDir = file('src/main/resources')
+    outputJavaDir = file("$buildDir/generated-sources/xjc")
+    packageName = 'com.yourcompany.generated'
+    xsdFiles = ['PassengerNotification.xsd']
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs += "$buildDir/generated-sources/xjc"
+        }
+    }
+}
+
+compileJava.dependsOn xjc
